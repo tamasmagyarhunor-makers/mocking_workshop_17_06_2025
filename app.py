@@ -1,9 +1,9 @@
-from lib.hosue import House
+from lib.door import Door
 from lib.person import Person
 
-house = House()
+door = Door()
 
 person = Person("Anamarie", 33)
 
-house.open_door(person)
+print(door.open(person))
 
